@@ -3,31 +3,10 @@
 
 fastapi==0.103.0
 uvicorn[standard]==0.22.0
-
 requests==2.32.3
 httpx==0.27.0
-
 beautifulsoup4==4.12.3
-bs4==0.0.2
 soupsieve==2.4.1
-
 pydantic==2.6.3
-pydantic-core==2.16.3
-typing-extensions==4.10.0
-
-pdfminer.six==20221105
-pdfplumber==0.9.0
-pillow==10.2.0
-
-playwright==1.42.0
-
-python-dotenv==1.0.1
-python-multipart==0.0.6
-
-PyYAML==6.0.1
-
-certifi
-charset-normalizer
-idna
-urllib3
+pydantic-core==2.16.2  # downgraded to prebuilt wheel
 
